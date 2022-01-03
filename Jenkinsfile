@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh "echo heelllloooo"
+                sh "echo commit polling works" 
             }
         }
     }
