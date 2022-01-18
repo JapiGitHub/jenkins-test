@@ -1,2 +1,5 @@
+require('dotenv').config()
+
 console.log("helloooo")
-const password = "pa5sw0rd"
+const password = process.env.PASS
+console.log(password)
